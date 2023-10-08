@@ -1,0 +1,30 @@
+.lights-box {
+
+    border: 2px solid #8b8b8a;
+    border-radius: 8px;
+}
+.traffic-lights {
+    background-color: #faf3e9;
+}
+.btn-lights {
+    font-size: 30px;
+    font-weight: normal;
+    height: 100%;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 100,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+.btn1 {
+    color: grey;
+}
+.btn2 {
+    color: grey;
+}
+.btn3 {
+    color: green;
+}
+

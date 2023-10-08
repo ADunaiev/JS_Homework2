@@ -1,0 +1,13 @@
+.football-field {
+    overflow: hidden;
+    position: relative;
+}
+.football-ball {
+    height: 100px;
+    left: 5;
+    position: absolute;
+    top: 0;
+    transform: translate3d(50px, 50px, 0);
+    transition: transform .3s ease-in;
+    width: 100px;
+}

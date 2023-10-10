@@ -18,13 +18,16 @@
     'GRAD' 0,
     'opsz' 24
 }
-.btn1 {
-    color: grey;
+.btn-red {
+    color: red;
+
 }
-.btn2 {
-    color: grey;
+.btn-yellow {
+    color: yellow;
+
 }
-.btn3 {
+.btn-green {
     color: green;
+
 }
 

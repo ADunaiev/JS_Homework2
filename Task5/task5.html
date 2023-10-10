@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task1</title>
+    <title>Task5</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,6 +23,9 @@
             <li><a href="../Task3/task3.html">Task3</a></li>
             <li><a href="../Task4/task4.html">Task4</a></li>
             <li class="active"><a href="task5.html">Task5</a></li>
+            <li><a href="../Task6/task6.html">Task6</a></li>
+            <li><a href="../Task7/task7.html">Task7</a></li>
+            <li><a href="../Task8/">Task8</a></li>
         </ul>
      </a>
     </div>
@@ -32,12 +35,62 @@
     <div class="container">
 
         <p>
-            <h1 class="center-align">Lorem ipsum dolor sit.</h1>
+            <h3 class="center-align">Task 5</h3>
         </p>
+
+        <div class="row">
+          <div class="col s12">
+            <img src="Знімок екрана 2023-10-09 235307.png" alt="task5" class="responsive-img">
+          </div>
+        </div>
+
+        <p>
+          <h3 class="center-align">Solution</h3>
+        </p>
+
+
+          <div class="row left" style="background-color: lemonchiffon;">
+            <div class="col s12">
+
+              <ol id="myOrderedList">
+                <li onclick="liClicked(event)" data-product="book1">
+                  "JavaScript for Kids: A Playful Introduction to Programming" by Nick Morgan
+                </li>
+                <li onclick="liClicked(event)" data-product="book2">
+                  "Eloquent JavaScript: A Modern Introduction to Programming" by Martin Haverbeke
+                </li>
+                <li onclick="liClicked(event)" data-product="book3">
+                  "JavaScript: The Good Parts" by Douglas Crockford
+                </li>
+                <li onclick="liClicked(event)" data-product="book4">
+                  "Programming JavaScript Applications: Robust Web Architecture with Node HTML5, and 
+                  Modern JS Libraries" by Eric Elliott
+                </li>
+                <li onclick="liClicked(event)" data-product="book5">
+                  "Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript" by David 
+                  Herman
+                </li>
+                <li onclick="liClicked(event)" data-product="book6">
+                  "JavaScript: The Definitive Guide" by David Flanagan
+                </li>
+                <li onclick="liClicked(event)" data-product="book7">
+                  "You Don't Know JS" by Kyle Simpson
+                </li>
+    
+              </ol>
+
+
+            </div>
+
+
+
+
+        </div>
 
         
 
     </div>
+    <script src="script.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>

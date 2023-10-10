@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task1</title>
+    <title>Task4</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -24,6 +24,9 @@
             <li><a href="../Task3/task3.html">Task3</a></li>
             <li class="active"><a href="task4.html">Task4</a></li>
             <li><a href="../Task5/task5.html">Task5</a></li>
+            <li><a href="../Task6/task6.html">Task6</a></li>
+            <li><a href="../Task7/task7.html">Task7</a></li>
+            <li><a href="../Task8/task8.html">Task8</a></li>
         </ul>
      </a>
     </div>
@@ -50,13 +53,13 @@
           <div class="col s12">
             <div class="card horizontal">
               <div class="card-content col s9 center-align">
-                    <i class="material-symbols-outlined btn1" style="font-size: 130px;">circle</i>
-                    <i class="material-symbols-outlined btn2" style="font-size: 130px;">circle</i>
-                    <i class="material-symbols-outlined btn3" style="font-size: 130px;">circle</i>
+                    <i class="material-symbols-outlined btn-red" id="btnRed" style="font-size: 130px;">circle</i>
+                    <i class="material-symbols-outlined btn-yellow" id="btnYellow" style="font-size: 130px;">circle</i>
+                    <i class="material-symbols-outlined btn-green" id="btnGreen" style="font-size: 130px;">circle</i>
               </div>
               <div class="card-action col s3 valign-wrapper">
 
-                  <a href="#" class="btn btn-large col s12 valign-wrapper">
+                  <a href="#" class="btn btn-large col s12 valign-wrapper" id="changeBtn" onclick="btnClicked(event)">
                     <span class=" btn-lights black-text">NEXT</span>
                   </a>
                   
@@ -68,6 +71,7 @@
         </div>
 
     </div>
+    <script src="script.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>

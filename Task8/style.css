@@ -1,0 +1,35 @@
+.text-box {
+    border: 2px solid grey;
+    margin: 1em;
+    overflow: hidden;
+    padding: 2em;
+    position: relative;
+}
+
+/*.text-box::after {
+    background-color: grey;
+    content: "";
+    height: 1em;
+    bottom:-0.5em;
+    right: -0.5em;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    width: 1em;
+    z-index: 0;
+}*/
+
+.text-box .resizer {
+    background-color: grey;
+    content: "";
+    height: 1em;
+    bottom: -0.5em;
+    right: -0.5em;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    width: 1em;
+    z-index: 1;
+}
+.text-box .resizer:hover {
+    cursor:nw-resize;
+}
+
